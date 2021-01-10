@@ -3,7 +3,7 @@ python:
   - "3.9"
 addons:
   sonarcloud:
-    organization: "TheFantasyClub_FuzzyClasifier_Exercise"
+    organization: "thefantasyclub-github"
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
