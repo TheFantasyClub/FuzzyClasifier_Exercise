@@ -8,4 +8,4 @@ addons:
       secure: SONARQUBE_VALUE
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - sonar-scanner
+  - sonar-scanner -Dsonar.projectKey=FuzzyClasifier_Exercise_TFC -Dsonar.sources=. -Dsonar.organization=thefantasyclub-github
